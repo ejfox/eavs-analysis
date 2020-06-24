@@ -1,0 +1,408 @@
+VariableName,Format,Label,ValidResponses,Responded Does Not Apply (-88),Responded Data Not Available (-99),Missing,ValidRange
+FIPSCode,String,FIPS        ,6460,0,0,0,-
+Jurisdiction_Name,String,Jurisdiction Name       ,6460,0,0,0,-
+State_Full,String,State Name (full),6460,0,0,0,-
+State_Abbr,String,State Name (abbreviation),6460,0,0,0,-
+A1a,Numeric,Total Registered Voters     ,6394,55,11,0,0-6858459
+A1b,Numeric,Total Active Voters     ,6391,55,14,0,0-5280658
+A1c,Numeric,Total Inactive Voters     ,3890,2531,38,1,0-1577801
+A1Comments,String,A1 Comments       ,2805,0,0,3655,-
+A2a,Numeric,Total New Same Day Registrations   ,3950,2427,83,0,0-39866
+A2Comments,String,A2 Comments       ,3173,0,0,3287,-
+A3a,Numeric,Registration Forms: Total     ,6263,55,142,0,0-1870491
+A3b,Numeric,Registration Forms: New Valid    ,6151,171,138,0,0-466688
+A3c,Numeric,Registration Forms: New Pre Registrations   ,4835,1278,347,0,0-60826
+A3d,Numeric,Registration Forms: Duplicates     ,5508,419,533,0,0-356501
+A3e,Numeric,Registration Forms: Invalid or Rejected   ,3933,2107,420,0,0-267464
+A3f,Numeric,"Registration Forms: Change to name, party or within-jurisdiction address",5964,325,171,0,0-809237
+A3g,Numeric,Registration Forms: Change Address cross jurisdiction  ,4747,915,715,83,-109-411356
+A3h_Other,String,Other Text 1     ,3938,0,0,2522,-
+A3h,Numeric,Other 1      ,3347,821,519,1773,0-1136339
+A3i_Other,String,Other Text 2,3669,0,0,2791,-
+A3i,Numeric,Other 2      ,2369,1562,665,1864,0-919
+A3j_Other,String,Other Text 3     ,1590,0,0,4870,-
+A3j,Numeric,Other 3      ,454,3456,617,1933,0-10624
+A3Comments,String,A3 Comments       ,4342,0,0,2118,-
+A4a,Numeric,Total forms: Mail     ,6228,101,131,0,0-245091
+A4b,Numeric,Total forms: In-person     ,6192,121,147,0,0-213788
+A4c,Numeric,Total forms: Online     ,4981,1470,9,0,0-1169354
+A4d,Numeric,Total forms: DMV     ,4109,2272,79,0,0-524788
+A4e,Numeric,Total forms: NVRA Mandated    ,3128,3149,183,0,0-48248
+A4f,Numeric,Total forms: Agencies Serving Persons with Disabilities ,2789,3265,406,0,0-5083
+A4g,Numeric,Total forms: Armed Forces Offices   ,2375,3652,433,0,0-21914
+A4h,Numeric,Total forms: Non-NVRA Mandated    ,2510,3583,367,0,0-98038
+A4i,Numeric,Total forms: Registration Drives    ,4082,1230,1148,0,0-176821
+A4j_Other,String,Total forms: Other Text 1   ,5447,0,0,1013,-
+A4j,Numeric,Total forms: Other 1    ,5066,444,257,693,0-371076
+A4k_Other,String,Other Text 2     ,4398,0,0,2062,-
+A4k,Numeric,Total forms: Other 2    ,3811,1132,278,1239,0-79258
+A4l_Other,String,Other Text 3     ,4018,0,0,2442,-
+A4l,Numeric,Total forms: Other 3    ,2774,1964,293,1429,0-28578
+A5a,Numeric,New Registrations: Mail     ,6036,217,207,0,0-183686
+A5b,Numeric,New Registrations: In-person     ,6000,237,223,0,0-77493
+A5c,Numeric,New Registrations: Online     ,4672,1705,83,0,0-335489
+A5d,Numeric,New Registrations: DMV     ,3916,2412,132,0,0-213952
+A5e,Numeric,New Registrations: NVRA Mandated    ,2930,3291,239,0,0-19680
+A5f,Numeric,New Registrations: Agencies Serving Persons with Disabilities ,2653,3419,388,0,0-5083
+A5g,Numeric,New Registrations: Armed Forces Offices   ,2309,3798,352,1,0-5083
+A5h,Numeric,New Registrations: Non-NVRA Mandated    ,2288,3724,447,1,0-32751
+A5i,Numeric,New Registrations: Registration Drives    ,4011,1316,1133,0,0-51388
+A5j_Other,String,Total forms: Other Text 1   ,4949,0,0,1511,-
+A5j,Numeric,New Registrations: Other 1    ,4427,990,258,785,0-46321
+A5k_Other,String,Other Text 2     ,4393,0,0,2067,-
+A5k,Numeric,New Registrations: Other 2    ,3655,1285,276,1244,0-15690
+A5l_Other,String,Other Text 3     ,3896,0,0,2564,-
+A5l,Numeric,New Registrations: Other 3    ,2431,2080,462,1487,0-38057
+A6a,Numeric,Duplicate Registrations: Mail     ,5060,428,971,1,0-155418
+A6b,Numeric,Duplicate Registrations: In-person     ,5011,447,1001,1,0-110320
+A6c,Numeric,Duplicate Registrations: Online     ,4315,1686,459,0,0-695285
+A6d,Numeric,Duplicate Registrations: DMV     ,3259,2619,581,1,0-291530
+A6e,Numeric,Duplicate Registrations: NVRA Mandated    ,2317,3478,664,1,0-18891
+A6f,Numeric,Duplicate Registrations: Agencies Serving Persons with Disabilities ,2056,3599,803,2,0-913
+A6g,Numeric,Duplicate Registrations: Armed Forces Offices   ,1736,4013,710,1,0-2270
+A6h,Numeric,Duplicate Registrations: Non-NVRA Mandated    ,1714,3955,790,1,0-7014
+A6i,Numeric,Duplicate Registrations: Registration Drives    ,3530,1574,1354,2,0-15091
+A6j_Other,String,Total forms: Other Text 1   ,4338,0,0,2122,-
+A6j,Numeric,Duplicate Registrations: Other 1    ,3812,1038,551,1059,0-11849
+A6k_Other,String,Other Text 2     ,4031,0,0,2429,-
+A6k,Numeric,Duplicate Registrations: Other 2    ,3246,1280,564,1370,0-6437
+A6l_Other,String,Other Text 3     ,3712,0,0,2748,-
+A6l,Numeric,Duplicate Registrations: Other 3    ,2378,2054,471,1557,0-8281
+A7a,Numeric,Invalid Registrations: Mail     ,3530,664,2265,1,0-19639
+A7b,Numeric,Invalid Registrations: In-person     ,3365,708,2387,0,0-53540
+A7c,Numeric,Invalid Registrations: Online     ,2567,1752,2140,1,0-138580
+A7d,Numeric,Invalid Registrations: DMV     ,3536,2604,320,0,0-77183
+A7e,Numeric,Invalid Registrations: NVRA Mandated    ,2530,3488,442,0,0-5199
+A7f,Numeric,Invalid Registrations: Agencies Serving Persons with Disabilities ,2228,3595,636,1,0-969
+A7g,Numeric,Invalid Registrations: Armed Forces Offices   ,1934,3998,528,0,0-1305
+A7h,Numeric,Invalid Registrations: Non-NVRA Mandated    ,1712,4120,628,0,0-1461
+A7i,Numeric,Invalid Registrations: Registration Drives    ,1838,1669,2953,0,0-21655
+A7j_Other,String,Total forms: Other Text 1   ,2577,0,0,3883,-
+A7j,Numeric,Invalid Registrations: Other 1    ,2132,2992,467,869,0-15608
+A7k_Other,String,Other Text 2     ,2017,0,0,4443,-
+A7k,Numeric,Invalid Registrations: Other 2    ,1492,3220,449,1299,0-2166
+A7l_Other,String,Other Text 3     ,1840,0,0,4620,-
+A7l,Numeric,Invalid Registrations: Other 3    ,511,4097,464,1388,0-6403
+A4_A7Comments,String,A4-A7 Comments       ,4705,0,0,1755,-
+A8a,Numeric,Notifications: Total      ,6196,170,72,22,0-1877128
+A8b,Numeric,Notifications: Received Confirming     ,4857,1207,386,10,0-82964
+A8c,Numeric,Notifications: Received Invalidating     ,2275,3641,543,1,0-180992
+A8d,Numeric,Notifications: Returned Undeliverable     ,4671,1096,646,47,0-224522
+A8e,Numeric,Notifications: Status Unknown     ,5076,1112,237,35,0-1613944
+A8f_Other,String,Notifications: Other Text 1    ,2338,0,0,4122,-
+A8f,Numeric,Notifications: Other 1     ,1748,2786,327,1599,0-311791
+A8g_Other,String,Notifications: Other Text 2    ,1837,0,0,4623,-
+A8g,Numeric,Notifications: Other 2     ,574,3937,520,1429,0-5334
+A8h_Other,String,Notifications: Other Text 3    ,1780,0,0,4680,-
+A8h,Numeric,Notifications: Other 3     ,396,4053,523,1488,0-2179
+A8Comments,String,A8 Comments       ,3385,0,0,3075,-
+A9a,Numeric,Voters Removed: Total     ,6367,55,37,1,0-223369
+A9b,Numeric,Voters Removed: Moved     ,6348,55,56,1,0-95562
+A9c,Numeric,Voters Removed: Death     ,6365,55,39,1,0-110273
+A9d,Numeric,Voters Removed: Felony     ,5355,924,180,1,0-13940
+A9e,Numeric,Voters Removed: Fail to Respond   ,6015,376,68,1,0-136090
+A9f,Numeric,Voters Removed: Declared Mentally Incompetent   ,4114,1859,486,1,0-389
+A9g,Numeric,Voters Removed: Voter Request    ,5827,394,236,3,0-38644
+A9h_Other,String,Voters Removed: Other Text 1   ,5711,0,0,749,-
+A9h,Numeric,Voters Removed: Other 1    ,5591,392,123,354,0-78006
+A9i_Other,String,Voters Removed: Other Text 2   ,4950,0,0,1510,-
+A9i,Numeric,Voters Removed: Other 2    ,3907,1394,264,895,0-20100
+A9j_Other,String,Voters Removed: Other Text 3   ,4363,0,0,2097,-
+A9j,Numeric,Voters Removed: Other 3    ,3179,1031,473,1777,0-44753
+A9Comments,String,A9 Comments       ,4182,0,0,2278,-
+B1a,Numeric,UOCAVA Registered: Total     ,5315,799,334,12,0-26773
+B1b,Numeric,Uniformed Service Registered: Total    ,5220,800,429,11,0-14178
+B1c,Numeric,Non-military Registered: Total     ,5210,804,434,12,0-22389
+B1Comments,String,B1 Comments       ,3857,0,0,2603,-
+B2a,Numeric,UOCAVA FPCAs: Total     ,5428,751,270,11,0-16520
+B2b,Numeric,Uniformed Service FPCAs: Total    ,5110,818,521,11,0-2394
+B2c,Numeric,Non-military FPCAs: Total     ,5103,824,520,13,0-16318
+B2Comments,String,B2 Comments       ,1431,0,0,5029,-
+B3a,Numeric,UOCAVA FPCAs Rejected: Total    ,2857,1106,2486,11,0-679
+B3b,Numeric,Uniformed Service FPCAs Rejected: Total   ,2740,1184,2525,11,0-166
+B3c,Numeric,Non-military FPCAs Rejected: Total    ,2748,1173,2527,12,0-660
+B3Comments,String,B3 Comments       ,3717,0,0,2743,-
+B4a,Numeric,UOCAVA FPCAs Rejected: Total Late   ,2512,1346,2591,11,0-251
+B4Comments,String,B4 Comments       ,3746,0,0,2714,-
+B5a,Numeric,UOCAVA Transmitted Ballots: Total    ,5924,500,25,11,0-27770
+B5b,Numeric,Uniformed Service Transmitted Ballots: Total   ,4669,1750,39,2,0-14898
+B5c,Numeric,Non-Military Transmitted Ballots: Total    ,4668,1749,41,2,0-22619
+B6a,Numeric,UOCAVA Transmitted Ballots: Mail    ,4446,1753,260,1,0-27686
+B6b,Numeric,Uniformed Service Transmitted Ballots: Mail   ,3894,1857,707,2,0-14898
+B6c,Numeric,Non-military Transmitted Ballots: Mail    ,3872,1869,717,2,0-22576
+B7a,Numeric,UOCAVA Transmitted Ballots: Email    ,4356,1840,264,0,0-22190
+B7b,Numeric,Uniformed Service Transmitted Ballots: Email   ,3796,2027,636,1,0-5531
+B7c,Numeric,Uniformed Service Transmitted Ballots: Email   ,3805,2123,531,1,0-18287
+B8a,Numeric,UOCAVA Transmitted Ballots: Other    ,3410,2700,348,2,0-3030
+B8b,Numeric,Uniformed Service Transmitted: Other    ,2951,2711,795,3,0-1643
+B8c,Numeric,Non-military Transmitted: Other     ,2925,2740,792,3,0-2822
+B5_B8Comments,String,B5-B8 Comments       ,3903,0,0,2557,-
+B9a,Numeric,UOCAVA Ballots Returned: Total    ,4619,1750,87,4,0-11584
+B9b,Numeric,Uniformed Service Ballots Returned: Total   ,4499,1758,199,4,0-5231
+B9c,Numeric,Non-military Ballots Returned: Total    ,4498,1756,202,4,0-9792
+B10a,Numeric,UOCAVA Ballots Returned: Mail    ,4169,1760,529,2,0-9922
+B10b,Numeric,Uniformed Service Ballots Returned: Mail   ,3845,1865,747,3,0-3675
+B10c,Numeric,Non-military Ballots Returned: Mail    ,3831,1876,750,3,0-9792
+B11a,Numeric,UOCAVA Ballots Returned: Email    ,2057,3813,587,3,0-4222
+B11b,Numeric,Uniformed Service Ballots Returned: Email   ,1717,3930,808,5,0-625
+B11c,Numeric,Non-military Ballots Returned: Email    ,1729,3915,810,6,0-3876
+B12a,Numeric,UOCAVA Ballots Returned: Other    ,2077,2845,1535,3,0-2668
+B12b,Numeric,Uniformed Service Ballots Returned: Other   ,1747,2954,1755,4,0-1466
+B12c,Numeric,Non-military Ballots Returned: Other    ,1716,2983,1757,4,0-2005
+B9_B12Comments,String,B9-B12 Comments       ,3861,0,0,2599,-
+B13a,Numeric,UOCAVA Returned Undeliverable: Total    ,3810,2023,622,5,0-9249
+B13b,Numeric,UOCAVA Returned Undeliverable: Mail    ,3589,2121,743,7,0-9249
+B13c,Numeric,UOCAVA Returned Undeliverable: Email    ,3476,2150,826,8,0-1026
+B13d,Numeric,UOCAVA Returned Undeliverable: Other    ,2718,1434,903,1405,0-46
+B13Comments,String,B13 Comments       ,2712,0,0,3748,-
+B14a,Numeric,UOCAVA Ballots Counted: Total    ,4615,1791,52,2,0-14740
+B14b,Numeric,Uniformed Service Ballots Counted: Total   ,4479,1798,180,3,0-5140
+B14c,Numeric,Non-military Ballots Counted: Total    ,4473,1796,185,6,0-11728
+B15a,Numeric,UOCAVA Ballots Counted: Mail    ,4070,1800,588,2,0-8373
+B15b,Numeric,Uniformed Service Ballots Counted: Mail   ,3929,1906,621,4,0-3636
+B15c,Numeric,Non-military Ballots Counted: Mail    ,3908,1916,626,10,0-8307
+B16a,Numeric,UOCAVA Ballots Counted: Email    ,1871,3745,841,3,0-4130
+B16b,Numeric,Uniformed Service Ballots Counted: Email   ,1750,3862,844,4,0-616
+B16c,Numeric,Non-military Ballots Counted: Email    ,1761,3846,847,6,0-3794
+B17a,Numeric,UOCAVA Ballots Counted: Other    ,1834,2917,1706,3,0-4037
+B17b,Numeric,Uniformed Service Ballots Counted: Other   ,1717,3026,1713,4,0-1466
+B17c,Numeric,Non-military Ballots Counted: Other    ,1686,3056,1713,5,0-3900
+B14_B17Comments,String,B14-B17 Comments       ,4031,0,0,2429,-
+B18a,Numeric,UOCAVA Ballots Rejected: Total    ,4439,1840,179,2,0-1549
+B18b,Numeric,Uniformed Service Ballots Rejected: Total   ,4183,1870,402,5,0-467
+B18c,Numeric,Non-military Ballots Rejected: Total    ,4191,1849,416,4,0-1485
+B19a,Numeric,UOCAVA Ballots Rejected: Deadline    ,4212,1916,329,3,0-547
+B19b,Numeric,Uniformed Service Ballots Rejected: Deadline   ,3967,1922,565,6,0-240
+B19c,Numeric,Non-military Ballots Rejected: Deadline    ,3964,1918,572,6,0-473
+B20a,Numeric,UOCAVA Ballots Rejected: Signature    ,3840,1982,634,4,0-244
+B20b,Numeric,Uniformed Service Ballots Rejected: Signature   ,3527,1999,929,5,0-87
+B20c,Numeric,Non-military Ballots Rejected: Signature    ,3604,1920,931,5,0-184
+B21a,Numeric,UOCAVA Ballots Rejected: Postmark    ,1317,3729,1411,3,0-142
+B21b,Numeric,Uniformed Service Ballots Rejected: Postmark   ,1151,3730,1574,5,0-15
+B21c,Numeric,Non-military Ballots Rejected: Postmark    ,1151,3730,1574,5,0-5
+B22a,Numeric,UOCAVA Ballots Rejected: Other Text   ,3563,2006,599,292,0-542
+B22b,Numeric,Uniformed Service Ballots Rejected: Other   ,3241,2017,879,323,0-267
+B22c,Numeric,Non-military Ballots Rejected: Other    ,3250,2007,881,322,0-307
+B22_Other,Numeric,Other,3982,0,0,2478,-
+B18_B22Comments,String,B18-B22 Comments       ,44,0,0,6416,-
+B23a,Numeric,UOCAVA FWABs Returned: Total    ,4974,661,813,12,0-822
+B23b,Numeric,Uniformed Service FWABs Returned: Total   ,4808,670,963,19,0-462
+B23c,Numeric,Non-military FWABs Returned: Total    ,4807,669,964,20,0-360
+B24a,Numeric,UOCAVA FWABs Counted: Total    ,4966,661,820,13,0-365
+B24b,Numeric,Uniformed Service FWABs Counted: Total   ,4805,669,967,19,0-204
+B24c,Numeric,Non-military FWABs Counted: Total    ,4803,668,968,21,0-348
+B25a,Numeric,UOCAVA FWABs Rejected: Deadline    ,4628,799,1019,14,0-133
+B25b,Numeric,Uniformed Service FWABs Rejected: Deadline   ,4443,866,1131,20,0-52
+B25c,Numeric,Non-military FWABs Rejected: Deadline    ,4509,799,1131,21,0-89
+B26a,Numeric,UOCAVA FWABs Rejected: Absentee    ,4508,901,1038,13,0-297
+B26b,Numeric,Uniformed Service FWABs Rejected: Absentee   ,4388,963,1089,20,0-19
+B26c,Numeric,Non-military FWABs Rejected: Absentee    ,4388,963,1089,20,0-30
+B23_B26Comments,String,B23-B26 Comments       ,3764,0,0,2696,-
+C1a,Numeric,By-mail Transmitted: Total     ,6425,5,18,12,0-2723457
+C1b,Numeric,By-mail Transmitted: Returned for Counting   ,6426,5,17,12,0-1346022
+C1c,Numeric,By-mail Transmitted: Returned Undeliverable    ,5516,288,644,12,0-87045
+C1d,Numeric,By-mail Transmitted: Voided     ,5370,190,887,13,0-71502
+C1e,Numeric,By-mail Transmitted: Voted In-person Provisional   ,1354,3776,1317,13,0-282240
+C1f,Numeric,By-mail Transmitted: Status Unknown    ,5783,139,524,14,0-1377435
+C1g_Other,String,By-mail Transmitted: Other Text 1   ,3129,0,0,3331,-
+C1g,Numeric,By-mail Transmitted: Other 1    ,2390,1321,608,2141,0-13213
+C1h_Other,String,By-mail Transmitted: Other Text 2   ,2979,0,0,3481,-
+C1h,Numeric,By-mail Transmitted: Other 2    ,2275,1540,621,2024,0-14711
+C1i_Other,String,By-mail Transmitted: Other Text 3   ,1063,0,0,5397,-
+C1i,Numeric,By-mail Transmitted: Other 3    ,353,3390,624,2093,0-29
+C1Comments,String,C1 Comments       ,2621,0,0,3839,-
+C2a,Numeric,Permanent By-mail Registrants: Total Transmitted   ,3515,2660,285,0,0-2590143
+C2Comments,String,C2 Comments       ,4371,0,0,2089,-
+C3a,Numeric,By-mail Ballots Counted: Total    ,6422,6,20,12,0-1330611
+C3Comments,String,C3 Comments       ,661,0,0,5799,-
+C4a,Numeric,By-mail Ballots Rejected: Total    ,6339,65,43,13,0-25785
+C4b,Numeric,By-mail Rejected: Deadline     ,5920,169,351,20,0-3339
+C4c,Numeric,By-mail Rejected: Voter Signature    ,3935,95,2410,20,0-2225
+C4d,Numeric,By-mail Rejected: Witness Signature    ,2453,1067,2915,25,0-586
+C4e,Numeric,By-mail Rejected: Non-matching Signature    ,2819,2642,976,23,0-7457
+C4f,Numeric,By-mail Rejected: No EO Signature   ,903,4463,1066,28,0-8
+C4g,Numeric,By-mail Rejected: Unofficial Envelope    ,1706,3581,1148,25,0-457
+C4h,Numeric,By-mail Rejected: Ballot Missing    ,2590,1091,2754,25,0-324
+C4i,Numeric,By-mail Rejected: Envelope Not Sealed   ,3186,2176,1072,26,0-230
+C4j,Numeric,By-mail Rejected: No Address    ,1387,3950,1096,27,0-97
+C4k,Numeric,By-mail Rejected: Multiple Ballots    ,3790,1471,1172,27,0-141
+C4l,Numeric,By-mail Rejected: Deceased     ,4473,1248,711,28,0-476
+C4m,Numeric,By-mail Rejected: Already Voted    ,5206,525,703,26,0-738
+C4n,Numeric,By-mail Rejected: No Voter ID   ,3852,1328,1254,26,0-486
+C4o,Numeric,By-mail Rejected: No Ballot Application   ,1911,3355,1169,25,0-169
+C4p_Other,String,By-mail Rejected: Other Text 1   ,5588,0,0,872,-
+C4p,Numeric,By-mail Rejected: Other 1    ,5033,492,542,393,0-13802
+C4q_Other,String,By-mail Rejected: Other Text 2   ,4937,0,0,1523,-
+C4q,Numeric,By-mail Rejected: Other 2    ,3600,1516,565,779,0-22645
+C4r_Other,String,By-mail Rejected: Other Text 3   ,4551,0,0,1909,-
+C4r,Numeric,By-mail Rejected: Other 3    ,3195,1620,586,1059,0-1227
+C4Comments,String,C4 Comments       ,3609,0,0,2851,-
+D1a,Numeric,Votes Cast: Total     ,6432,1,15,12,0-3023417
+D1Comments,String,D1 Comments       ,572,0,0,5888,-
+D2a,Numeric,Voted at Poll Place on Election Day ,6353,43,52,12,0-1652527
+D2b,Numeric,Voted at Early Vote Location   ,5097,563,788,12,0-767162
+D2Comments,String,D2 Comments       ,1664,0,0,4796,-
+D3a,Numeric,Number of Precincts: Total    ,6427,2,19,12,0-2604
+D3Comments,String,D3 Comments       ,501,0,0,5959,-
+D4a,Numeric,Election Day Polling Places: Total   ,6262,165,20,13,0-120436
+D4b,Numeric,Election Day Polling Places: Physical Place Not Election Office,5576,130,741,13,0-17879
+D4c,Numeric,Election Day Polling Places: Election Office  ,1986,3488,971,15,0-4110
+D5a,Numeric,Early Voting Polling Places: Total   ,3215,737,2496,12,0-25240
+D5b,Numeric,Early Voting Polling Places: Physical Place Not Election Office,2493,1598,2356,13,0-9690
+D5c,Numeric,Early Voting Polling Places: Election Office  ,3102,572,2773,13,0-4519
+D4_D5Comments,String,D4-D5 Comments       ,4234,0,0,2226,-
+D6,Numeric,Poll Workers Election Day: Total   ,3684,99,2662,15,0-24651
+D7,Numeric,Poll Workers Early Voting: Total   ,1699,1373,3375,13,0-2390
+D6_D7Comments,String,D6-D7 Comments       ,3772,0,0,2688,-
+D8a,Numeric,Poll Workers: Total     ,3015,51,3377,17,0-24182
+D8b,Numeric,Poll Workers: Under 18    ,2125,370,3944,21,0-2986
+D8c,Numeric,Poll Workers: 18 to 25   ,2245,225,3970,20,0-1908
+D8d,Numeric,Poll Workers: 26 to 40   ,2254,225,3961,20,0-3598
+D8e,Numeric,Poll Workers: 41 to 60   ,2271,224,3948,17,0-7077
+D8f,Numeric,Poll Workers: 61 to 70   ,2270,225,3948,17,0-4998
+D8g,Numeric,Poll Workers: 71 And Up   ,2263,224,3955,18,0-3615
+D8Comments,String,D8 Comments       ,1982,0,0,4478,-
+D9,Numeric,Poll Workers Recruiting Difficulty    ,4419,2,1988,51,0-6
+D9Comments,String,D9 Comments       ,948,0,0,5512,-
+E1a,Numeric,Provisional Ballots: Total     ,5597,819,32,12,0-418597
+E1b,Numeric,Provisional Ballots: Counted Full Ballot   ,5452,823,173,12,0-87029
+E1c,Numeric,Provisional Ballots: Counted Part of Ballot  ,1344,4053,1049,14,0-13444
+E1d,Numeric,Provisional Ballots: Rejected Ballot    ,5033,1377,38,12,0-50315
+E1e_Other,Numeric,Other Text      ,3838,0,0,2622,-
+E1e,Numeric,Provisional Ballots: Other     ,2462,1901,522,1575,0-28311
+E1Comments,String,E1 Comments       ,2516,0,0,3944,-
+E2a,Numeric,Provisional Ballots Rejected: Total    ,4917,1375,156,12,0-50315
+E2b,Numeric,Provisional Ballots Rejected: Not Registered   ,2688,3269,486,17,0-26730
+E2c,Numeric,Provisional Ballots Rejected: Wrong Jurisdiction   ,2106,3425,906,23,0-15358
+E2d,Numeric,Provisional Ballots Rejected: Wrong Precinct   ,2103,3505,831,21,0-2414
+E2e,Numeric,Provisional Ballots Rejected: No ID   ,4403,1727,308,22,0-751
+E2f,Numeric,Provisional Ballots Rejected: Incomplete    ,2069,3503,867,21,0-862
+E2g,Numeric,Provisional Ballots Rejected: Ballot Missing   ,1640,3953,846,21,0-3854
+E2h,Numeric,Provisional Ballots Rejected: No Signature   ,1923,3521,995,21,0-1462
+E2i,Numeric,Provisional Ballots Rejected: Non-matching Signature   ,1693,3746,1001,20,0-1886
+E2j,Numeric,Provisional Ballots Rejected: Already Voted   ,2093,3495,851,21,0-1344
+E2k_Other,String,Provisional Ballots Rejected: Other Text 1  ,3319,0,0,3141,-
+E2k,Numeric,Provisional Ballots Rejected: Other 1   ,2297,3084,413,666,0-7419
+E2l_Other,String,Provisional Ballots Rejected: Other Text 2  ,2878,0,0,3582,-
+E2l,Numeric,Provisional Ballots Rejected: Other 2   ,1116,3688,547,1109,0-587
+E2m_Other,String,Provisional Ballots Rejected: Other Text 3  ,2152,0,0,4308,-
+E2m,Numeric,Provisional Ballots Rejected: Other 3   ,508,4018,551,1383,0-2519
+E2Comments,String,E2 Comments       ,4134,0,0,2326,-
+F1a,Numeric,Participation: Total      ,6429,1,17,13,0-3049460
+F1b,Numeric,Participation: Physical Polling Place on Election Day ,6350,45,52,13,0-1251426
+F1c,Numeric,Participation: UOCAVA      ,5867,505,39,49,0-14903
+F1d,Numeric,Participation: By Mail     ,6276,117,18,49,0-1408616
+F1e,Numeric,Participation: Provisional Ballot     ,4998,1323,90,49,0-367546
+F1f,Numeric,Participation: In Person Early Voting   ,4835,828,784,13,0-767162
+F1g,Numeric,Participation: Vote By Mail Jurisdiction   ,632,5601,227,0,0-1155581
+F1h_Other,String,Participation: Other Text     ,4001,0,0,2459,-
+F1h,Numeric,Participation: Other      ,2511,2057,398,1494,0-16559
+F1Comments,String,F1 Comments       ,4419,0,0,2041,-
+F2,Numeric,Data Source for Total Participation   ,6401,1,0,58,0-9182
+F2_Other,Numeric,Data Source for Total Participation: Other Text ,1062,0,0,5398,-
+F2Comments,String,F2 Comments       ,765,0,0,5695,-
+F3a,Numeric,Electronic Poll Book use: Sign Voters In ,6381,23,0,56,0-1
+F3b,Numeric,Electronic Poll Book use: Update Voter History ,6366,23,0,71,0-1
+F3c,Numeric,Electronic Poll Book use: Look Up Polling Places,6279,23,92,66,0-1
+F3d_Other,String,Electronic Poll Book use: Other Text  ,1407,0,0,5053,-
+F3d,Numeric,Electronic Poll Book use: Other   ,5158,223,1,1078,0-1
+F4a,Numeric,Paper Poll Book use: Sign Voters In ,6403,2,0,55,0-1
+F4b,Numeric,Paper Poll Book use: Update Voter History ,6403,2,0,55,0-1
+F4c,Numeric,Paper Poll Book use: Look Up Polling Places,6400,2,0,58,0-1
+F4d_Other,String,Paper Poll Book use: Other Text  ,1169,0,0,5291,-
+F4d,Numeric,Paper Poll Book use: Other   ,5135,162,1,1162,0-1
+F3_F4Comments,String,F3-F4 Comments       ,1298,0,0,5162,-
+F5a,Numeric,Voting Technology used: DRE no VVPAT  ,6427,2,5,26,0-1
+F5b_1,Numeric,DRE no VVPAT: Make and Model 1 ,818,703,408,4531,0-14
+F5b_1other,String,DRE no VVPAT: Other Make Model 1 ,911,0,0,5549,-
+F5c_1,Numeric,DRE no VVPAT: Number Deployed 1  ,807,1714,162,3777,0-4500
+F5b_2,Numeric,DRE no VVPAT: Make and Model 2 ,100,963,471,4926,0-14
+F5b_2other,String,DRE no VVPAT: Other Make Model 2 ,884,0,0,5576,-
+F5c_2,Numeric,DRE no VVPAT: Number Deployed 2  ,179,1772,217,4292,0-990
+F5b_3,Numeric,DRE no VVPAT: Make and Model 3 ,15,963,469,5013,0-402
+F5b_3other,String,DRE no VVPAT: Other Make Model 3 ,883,0,0,5577,-
+F5c_3,Numeric,DRE no VVPAT: Number Deployed 3  ,101,1773,216,4370,0-402
+F5d_1,Numeric,DRE no VVPAT: Regular Balloting   ,1261,608,69,4522,0-1
+F5d_2,Numeric,DRE no VVPAT: Special Device   ,1261,608,69,4522,0-1
+F5d_3,Numeric,DRE no VVPAT: Provisional Ballot   ,1261,608,69,4522,0-1
+F5d_4,Numeric,DRE no VVPAT: In Person Early  ,1261,608,69,4522,0-1
+F6a,Numeric,Voting Technology used: DRE with VVPAT     ,6430,2,0,28,0-1
+F6b_1,Numeric,DRE with VVPAT: Make and Model 1 ,1270,1059,283,3848,0-7
+F6b_1other,String,DRE with VVPAT: Other Make Model 1 ,908,0,0,5552,-
+F6c_1,Numeric,DRE with VVPAT: Number Deployed 1  ,424,1730,1083,3223,0-8474
+F6b_2,Numeric,DRE with VVPAT: Make Model 2  ,7,1143,292,5018,0-7
+F6b_2other,String,DRE with VVPAT: Other Make Model 2 ,888,0,0,5572,-
+F6c_2,Numeric,DRE with VVPAT: Number Deployed 2  ,94,1815,125,4426,0-361
+F6b_3,Numeric,DRE with VVPAT: Make Model 3  ,3,1143,291,5023,0-7
+F6b_3other,String,DRE with VVPAT: Other Make Model 3 ,884,0,0,5576,-
+F6c_3,Numeric,DRE with VVPAT: Number Deployed 3  ,89,1817,125,4429,0-361
+F6d_1,Numeric,DRE with VVPAT: Regular Balloting   ,1977,762,61,3660,0-1
+F6d_2,Numeric,DRE with VVPAT: Special Device   ,1911,762,61,3726,0-1
+F6d_3,Numeric,DRE with VVPAT: Provisional Ballot   ,1910,762,61,3727,0-1
+F6d_4,Numeric,DRE with VVPAT: In Person Early  ,1910,762,61,3727,0-1
+F7a,Numeric,Voting Technology used: Ballot Marking Device,6423,2,5,30,0-1
+F7b_1,Numeric,Ballot Marking Device: Make and Model 1 ,3668,432,123,2237,0-11
+F7b_1other,String,Ballot Marking Device: Other Make Model 1 ,1377,0,0,5083,-
+F7c_1,Numeric,Ballot Marking Device: Number Deployed 1  ,3087,590,916,1867,0-2100
+F7b_2,Numeric,Ballot Marking Device: Make Model 2  ,109,1113,299,4939,0-11
+F7b_2other,String,Ballot Marking Device: Other Make Model 2 ,974,0,0,5486,-
+F7c_2,Numeric,Ballot Marking Device: Number Deployed 2  ,103,2121,241,3995,0-89
+F7b_3,Numeric,Ballot Marking Device: Make Model 3  ,95,1114,301,4950,0-11
+F7b_3other,String,Ballot Marking Device: Other Make Model 3 ,969,0,0,5491,-
+F7c_3,Numeric,Ballot Marking Device: Number Deployed 3  ,95,2122,242,4001,0-89
+F7d_1,Numeric,Ballot Marking Device: Regular Balloting   ,4168,240,10,2042,0-1
+F7d_2,Numeric,Ballot Marking Device: Special Device   ,4414,240,10,1796,0-1
+F7d_3,Numeric,Ballot Marking Device: Provisional Ballot   ,4167,241,10,2042,0-1
+F7d_4,Numeric,Ballot Marking Device: In Person Early  ,3887,240,10,2323,0-1
+F7d_5,Numeric,Ballot Marking Device: By Mail Ballot  ,4110,279,10,2061,0-1
+F8a,Numeric,Voting Technology used: Scanner       ,6191,2,5,262,0-1
+F8b_1,Numeric,Scanner: Make and Model 1   ,4478,138,75,1769,0-27
+F8b_1other,String,Scanner: Other Make Model 1   ,1058,0,0,5402,-
+F8c_1,Numeric,Scanner: Number Deployed 1    ,3569,420,1142,1329,0-2059
+F8b_2,Numeric,Scanner: Make Model 2    ,381,1011,349,4719,0-27
+F8b_2other,String,Scanner: Other Make Model 2   ,1118,0,0,5342,-
+F8c_2,Numeric,Scanner: Number Deployed 2    ,309,1986,245,3920,0-1639
+F8b_3,Numeric,Scanner: Make Model 3    ,162,1047,383,4868,0-27
+F8b_3other,String,Scanner: Other Make Model 3   ,1116,0,0,5344,-
+F8c_3,Numeric,Scanner: Number Deployed 3    ,102,2098,242,4018,0-150
+F8d_1,Numeric,Scanner: Regular Balloting     ,4959,133,6,1362,0-1
+F8d_2,Numeric,Scanner: Special Device     ,4918,172,6,1364,0-1
+F8d_3,Numeric,Scanner: Provisional Ballot     ,4918,172,6,1364,0-1
+F8d_4,Numeric,Scanner: In Person Early    ,4957,133,6,1364,0-1
+F8d_5,Numeric,Scanner: By Mail Ballot    ,4918,172,6,1364,0-1
+F9a,Numeric,Voting Technology used: Punch Card,6432,2,0,26,0
+F9b_1other,String,Punch Card: Make Model 1   ,879,0,0,5581,-
+F9c_1,Numeric,Punch Card: Number Deployed 1   ,7,1979,68,4406,0
+F9b_2other,String,Punch Card: Make Model 2   ,881,0,0,5579,-
+F9c_2,Numeric,Punch Card: Number Deployed 2   ,6,1980,68,4406,0
+F9b_3other,String,Punch Card: Make Model 3   ,880,0,0,5580,-
+F9c_3,Numeric,Punch Card: Number Deployed 3   ,7,1978,68,4407,0
+F9d_1,Numeric,Punch Card: Regular Balloting    ,655,723,65,5017,0
+F9d_2,Numeric,Punch Card: Special Device    ,655,723,65,5017,0
+F9d_3,Numeric,Punch Card: Provisional Ballot    ,655,723,65,5017,0
+F9d_4,Numeric,Punch Card: In Person Early   ,655,723,65,5017,0
+F9d_5,Numeric,Punch Card: By Mail Ballot   ,655,723,65,5017,0
+F10a,Numeric,Voting Technology used: Lever,6430,2,0,28,0
+F10b_1other,String,Lever: Make Model 1,880,0,0,5580,-
+F10c_1,Numeric,Lever: Number Deployed 1,7,1975,68,4410,0
+F10b_2other,String,Lever: Make Model 2,881,0,0,5579,-
+F10c_2,Numeric,Lever: Number Deployed 2,6,1977,68,4409,0
+F10b_3other,String,Lever: Make Model 3,881,0,0,5579,-
+F10c_3,Numeric,Lever: Number Deployed 3,6,1977,68,4409,0
+F10d_1,Numeric,Lever: Regular Balloting     ,617,762,65,5016,0-1
+F10d_2,Numeric,Lever: Special Device     ,617,762,65,5016,0-1
+F10d_4,Numeric,Lever: In Person Earl    ,616,762,66,5016,0
+F11a,Numeric,Voting Technology used: Hand Count,6269,2,26,163,0-1
+F11d_1,Numeric,Hand Count: Regular Balloting    ,3171,380,27,2882,0-1
+F11d_2,Numeric,Hand Count: Special Device    ,2449,379,27,3605,0-1
+F11d_3,Numeric,Hand Count: Provisional Ballot    ,3171,380,27,2882,0-1
+F11d_4,Numeric,Hand Count: In Person Early   ,3171,380,27,2882,0-1
+F11d_5,Numeric,Hand Count: By Mail Ballot   ,3170,380,27,2883,0-1
+F5_F11Comments,String,F5-F11 Comments       ,3291,0,0,3169,-
+F12a,Numeric,Location of Vote Tally: Election Day Regular Ballot,6080,49,44,287,0-3
+F12b,Numeric,Location of Vote Tally: Special Devices  ,5903,345,58,154,0-3
+F12c,Numeric,Location of Vote Tally: Provisional Ballot Voting ,5326,928,52,154,0-3
+F12d,Numeric,Location of Vote Tally: In Person Early Voting,4745,1345,214,156,0-3
+F12e,Numeric,Location of Vote Tally: By Mail Balloting ,5609,652,44,155,0-3
+F12Comments,String,F12 Comments       ,897,0,0,5563,-
+F13,String,General Comments      ,391,0,0,6069,-

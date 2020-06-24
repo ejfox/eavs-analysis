@@ -1,0 +1,28 @@
+{
+  "name": "eavs-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "d3": "^5.16.0",
+    "d3-collection": "^1.0.7",
+    "d3-dsv": "^1.2.0",
+    "esm": "^3.2.25",
+    "fast-csv": "^4.3.0",
+    "firstline": "^2.0.2",
+    "inquirer": "^7.2.0",
+    "lodash": "^4.17.15",
+    "lodash-es": "^4.17.15",
+    "ndjson-to-json": "^1.0.0",
+    "shelljs": "^0.8.4",
+    "slugify": "^1.4.0",
+    "spacetime-cli": "github:nypl-spacetime/spacetime-cli",
+    "yargs": "^15.3.1"
+  }
+}
