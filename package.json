@@ -17,7 +17,7 @@
     "fast-csv": "^4.3.0",
     "firstline": "^2.0.2",
     "inquirer": "^7.2.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lodash-es": "^4.17.15",
     "ndjson-to-json": "^1.0.0",
     "shelljs": "^0.8.4",
