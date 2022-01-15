@@ -20,7 +20,7 @@
     "lodash": "^4.17.15",
     "lodash-es": "^4.17.15",
     "ndjson-to-json": "^1.0.0",
-    "shelljs": "^0.8.4",
+    "shelljs": "^0.8.5",
     "slugify": "^1.4.0",
     "spacetime-cli": "github:nypl-spacetime/spacetime-cli",
     "yargs": "^15.3.1"
